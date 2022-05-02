@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+    border-radius: 2rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7027A0;
+    border-radius: 2rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #23049D -4.69%;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #161616;
+}
+
+@media only screen and (max-width: 95rem) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media only screen and (max-width: 65rem) {
+    html {
+        font-size: 58%;
+    }
+}
+
+.container {
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation a{
+    font-size: 2rem;
+}
+
+.homeBegin {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2rem;
+
+    transition: 0.8s;
+}
+
+.homeBegin:hover {
+    color: #7027A0;
+    transform: scale(1.2    );
+}
+
+.aboutBegin {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2rem;
+
+    transition: 0.8s;
+}
+
+.aboutBegin:hover {
+    color: #7027A0;
+    transform: scale(1.2);
+}
+
+.servicesBegin {
+    text-decoration: none;
+    color:#F5F5F5;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2rem;
+
+    transition: 0.8s;
+}
+
+.servicesBegin:hover {
+    color: #7027A0;
+    transform: scale(1.2);
+}
+
+.buttonCtaOne {
+    width: 25rem;
+    height: 7rem;
+    border: none;
+    background: linear-gradient(275.34deg, #23049D -4.69%, #E59E88 102.75%);
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    transition: 0.8s;
+}
+
+.buttonCtaOne:hover {
+    transform: scale(1.1);
+}
+
+.contactMe{
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+
+.sectionOfHome {
+    box-sizing: border-box;
+    margin-top: 10rem;
+}
+
+
+.circleOne {
+    border-radius: 100%;
+    width: 30rem;
+    height: 30rem;
+    border: 2px solid #7027A0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circleTwo {
+    border-radius: 100%;
+    width: 25rem;
+    height: 25rem;
+    background:#7027A0;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+}
+
+.myName {
+    width: 60rem;
+    height: 10rem;
+    background: #7027A0;
+    position: absolute;
+    z-index: -3;
+    margin-left: 80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myNameText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    color: #F5F5F5;
+    position: absolute;
+    z-index: 2;
+}
+
+.fullStackTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: #F5F5F5;
+    margin-left: 49rem;
+    margin-top: -6rem;
+}
+
+.divisionOne {
+    width:  100%;
+    height: 5px;
+    margin-top: 13rem;
+
+
+    background: linear-gradient(90.34deg, #7027A0 33.83%, #E59E88 84.09%);
+    border-radius: 25px;
+}
+
+
+/*About Me Section*/
+
+.aboutMeSectionTitle {
+    background: #7027A0;
+    width: 80rem;
+    height: 10rem;
+
+    margin-top: 36rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+}
+
+.aboutMeTextTitle {
+    margin-left: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    color: #F5F5F5;
+}
+
+.positionSectionAboutMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.borderOfSectionAboutMe {
+    border: 2px solid #7027A0;
+    border-radius: 1.5rem;
+    width: 63rem;
+    height: 57rem;
+    box-sizing: border-box;
+
+    position: relative;
+    z-index: 1;
+    margin-top: 13rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.aboutMeApresentation {
+    background: #F5F5F5;
+    border-radius: 1.5rem;
+    width: 51rem;
+    height: 46rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+.helloPeople {
+    font-size: 2em;
+    color: #161616;
+    font-family: 'Roboto', sans-serif;
+}
+
+.explanations {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 2rem; 
+    letter-spacing: 0.02rem;
+}
+
+.people {
+    color: #7027A0;
+}
+
+
+/*Hard Skills and Soft Skills*/
+
+
+.hardSkillsSoftSkills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13rem;
+}
+
+.hardSkills {
+    width: 45rem;
+    height: 55rem;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1.5rem;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.softSkills {
+    width: 45rem;
+    height: 55rem;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1.5rem;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Last button of CTA on my page*/
+
+.lastButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+}
+
+.borderOfLastButtonCTA {
+    border: 2px solid #7027A0;
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonOfCTATwo {
+    height: 10rem;
+    width: 103rem;
+    border: none;
+    border-radius: 1.5rem;
+    background: linear-gradient(90.34deg, #7027A0 33.83%, #E59E88 84.09%);
+    transition: 0.8s;
+}
+
+.buttonOfCTATwo:hover {
+    transform: scale(1.1);
+}
+
+.contactMeTwo {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 5rem;
+    letter-spacing: 1.5rem;
+    font-family: 'Roboto', sans-serif;;
+}
+
+/*Footer*/
+
+footer {
+    background: #F5F5F5;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerTextOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hey {
+    color:  #7027A0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8rem;
+}
+
+.decorationOfLeft {
+    width: 80px;
+    height: 5px;
+    background: linear-gradient(90.34deg, #7027A0 33.83%, #E59E88 84.09%);
+    border-radius: 25px;
+    margin-right: 2rem;
+}
+
+.decorationOfRight {
+    width: 80px;
+    height: 5px;
+    background: linear-gradient(90.34deg, #7027A0 33.83%, #E59E88 84.09%);
+    border-radius: 25px;
+    margin-left: 2rem;
+    transform: rotate(180deg);
+}
+.footerTextTwo {
+    line-height: 1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socialMedias {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.github:hover {
+    transition: 0.8s;
+    transform: scale(0.8);
+}
+
+.behance:hover {
+    transition: 0.8s;
+    transform: scale(0.8);
+}
+
+.instagram:hover {
+    transition: 0.8s;
+    transform: scale(0.8);
+}
